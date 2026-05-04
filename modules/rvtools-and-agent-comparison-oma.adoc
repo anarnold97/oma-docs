@@ -11,6 +11,8 @@ The product may offer one or both of these paths. Use what your build exposes an
 * *When it helps* — You already have RVTools, you want a light-touch upload, and you can accept a summary or anonymized view that matches your chosen privacy setting.
 * *What you give up* — A file alone does not run live queries or deep in-guest checks in the VMware estate. The assessment depth matches what the spreadsheet and product rules can derive.
 
+For where to obtain RVTools and how to upload an export in {OMA}, see xref:modules/about-rvtools-for-oma.adoc#about-rvtools-for-oma[About RVTools for migration assessments] and xref:modules/starting-assessment-with-rvtools-data.adoc#starting-assessment-with-rvtools-data[Starting an assessment with a RVTools file] in xref:assemblies/creating-a-migration-assessment.adoc#creating-a-migration-assessment[Creating a migration assessment].
+
 *Assisted agent in vSphere*
 
 * *When it helps* — You need a richer view of the environment (including views that may be available *only* on a local agent appliance) and you can deploy software in the VMware side.

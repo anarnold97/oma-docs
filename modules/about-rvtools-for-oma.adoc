@@ -1,0 +1,13 @@
+:_mod-docs-content-type: CONCEPT
+
+[id="about-rvtools-for-oma"]
+= About RVTools for migration assessments
+
+[role="_abstract"]
+RVTools is a free utility from Dell Technologies that exports VMware vSphere data to a spreadsheet. {OMA} can accept a supported RVTools file when your product build enables the file-based assessment path.
+
+RVTools is a Windows application for auditing and reporting on virtual machines, clusters, datastores, and related inventory in your VMware environment. You generate the spreadsheet export outside {OMA}.
+
+When your build exposes the RVTools path, the {HCC} lets you upload a *supported* file format and version. Exports that do not match what the product validates are rejected.
+
+For the official RVTools download, documentation, and support options, see link:https://www.dell.com/en-ie/shop/vmware/sl/rvtools[RVTools on Dell Technologies].

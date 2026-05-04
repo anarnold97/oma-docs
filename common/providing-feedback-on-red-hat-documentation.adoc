@@ -1,0 +1,20 @@
+:_mod-docs-content-type: PROCEDURE
+
+[preface]
+[id="providing-feedback-on-red-hat-documentation"]
+= Providing feedback on Red Hat documentation
+
+[role="_abstract"]
+We are committed to providing high-quality documentation and value your feedback. This guide covers {OMA} in the {HCC} and related migration assessment content. To help us improve, you can submit suggestions or report errors through the Red Hat Jira tracking system.
+
+
+.Procedure
+
+. Log in to the link:https://redhat.atlassian.net/jira/software/c/projects/RHELDOCS/issues/[Jira] website.
++
+If you do not have an account, select the option to create one.
+. Click *Create* in the top navigation bar.
+. Enter a descriptive title in the *Summary* field.
+. Enter your suggestion for improvement in the *Description* field. Include links to the relevant parts of the documentation.
+. Click *Create* at the bottom of the window.
+
