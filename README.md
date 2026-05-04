@@ -22,7 +22,7 @@ The implementation lives in
 * [Assisted migration agent](https://github.com/kubev2v/assisted-migration-agent)
 * [Migration Planner UI](https://github.com/kubev2v/migration-planner-ui-app).
 
-## Target Audience**
+## Target Audience
 
 OMA is optimized for self-service use by VMware administrators and IT architects. The guided experience requires very little technical expertise and no prior OpenShift experience to run the initial assessment. It is primarily designed to support midsize business environments managing up to roughly 2,000 virtual machines.
 

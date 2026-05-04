@@ -6,8 +6,8 @@
 [role="_abstract"]
 Short answers to common questions about how {OMA} is delivered, which languages are supported, and how the service relates to very large vSphere environments.
 
-include::../../modules/oma/release-cadence-oma.adoc[leveloffset=+1]
+include::../modules/release-cadence-oma.adoc[leveloffset=+1]
 
-include::../../modules/oma/language-support-oma.adoc[leveloffset=+1]
+include::../modules/language-support-oma.adoc[leveloffset=+1]
 
-include::../../modules/oma/support-for-large-environments-oma.adoc[leveloffset=+1]
+include::../modules/support-for-large-environments-oma.adoc[leveloffset=+1]
