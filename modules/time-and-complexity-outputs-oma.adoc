@@ -4,7 +4,7 @@
 = Migration time and complexity in the product
 
 [role="_abstract"]
-Some {OMA} builds may show a migration time estimate, a complexity view, or other planning hints next to sizing and risk information. The exact labels and controls come from the console. Do not treat a time range or a score as a service level agreement, a project deadline, or a full picture of work for every application team.
+Some the {OMA} builds may show a migration time estimate, a complexity view, or other planning hints next to sizing and risk information. The exact labels and controls come from the console. Do not treat a time range or a score as a service level agreement, a project deadline, or a full picture of work for every application team.
 
 [IMPORTANT]
 ====

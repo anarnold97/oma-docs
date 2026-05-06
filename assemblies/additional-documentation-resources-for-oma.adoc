@@ -8,4 +8,4 @@ This chapter defines terms used in this user guide and lists public *kubev2v* re
 
 include::../modules/glossary-terms-migration-advisor.adoc[leveloffset=+1]
 
-include::../modules/related-open-source-repositories-oma.adoc[leveloffset=+1]
+include::../modules/open-source-projects-that-implement-the-automated-reporting-stack.adoc[leveloffset=+1]

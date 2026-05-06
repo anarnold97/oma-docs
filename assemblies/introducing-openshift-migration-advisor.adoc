@@ -1,14 +1,14 @@
 :_mod-docs-content-type: ASSEMBLY
 
 [id="introducing-openshift-migration-advisor"]
-= Introducing {OMA}
+= Introducing the {OMA}
 
 [role="_abstract"]
-Read this chapter to learn what {OMA} is, which problems a migration assessment helps you address, who the service is for, and how you reach it in the {HCC}.
+Read this chapter to learn what the {OMA} is, which problems an automated migration report helps you address, who the service is for, and how you reach it in the {HCC}.
 
 include::../modules/what-is-openshift-migration-advisor.adoc[leveloffset=+1]
 
-include::../modules/problems-oma-helps-address.adoc[leveloffset=+1]
+include::../modules/problems-that-an-automated-migration-report-is-meant-to-help-with.adoc[leveloffset=+1]
 
 include::../modules/audience-and-scale-for-oma.adoc[leveloffset=+1]
 

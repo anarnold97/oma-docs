@@ -5,12 +5,12 @@
 = Providing feedback on Red Hat documentation
 
 [role="_abstract"]
-We are committed to providing high-quality documentation and value your feedback. This guide covers {OMA} in the {HCC} and related migration assessment content. To help us improve, you can submit suggestions or report errors through the Red Hat Jira tracking system.
+We are committed to providing high-quality documentation and value your feedback. This guide covers the {OMA} in the {HCC} and related automated migration report content. To help us improve, you can submit suggestions or report errors through the {RH} Jira tracking system.
 
 
 .Procedure
 
-. Log in to the link:https://redhat.atlassian.net/jira/software/c/projects/RHELDOCS/issues/[Jira] website.
+. Log in to the link:https://redhat.atlassian.net/jira/software/c/projects/MTV/issues/[Jira] website.
 +
 If you do not have an account, select the option to create one.
 . Click *Create* in the top navigation bar.

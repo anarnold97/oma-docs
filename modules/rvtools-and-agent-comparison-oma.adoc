@@ -9,11 +9,15 @@ The product may offer one or both of these paths. Use what your build exposes an
 *RVTools spreadsheet*
 
 * *When it helps* — You already have RVTools, you want a light-touch upload, and you can accept a summary or anonymized view that matches your chosen privacy setting.
-* *What you give up* — A file alone does not run live queries or deep in-guest checks in the VMware estate. The assessment depth matches what the spreadsheet and product rules can derive.
+* *What you give up* — A file alone does not run live queries or deep in-guest checks in the VMware estate. The depth of the automated report matches what the spreadsheet and product rules can derive.
 
-For where to obtain RVTools and how to upload an export in {OMA}, see xref:modules/about-rvtools-for-oma.adoc#about-rvtools-for-oma[About RVTools for migration assessments] and xref:modules/starting-assessment-with-rvtools-data.adoc#starting-assessment-with-rvtools-data[Starting an assessment with a RVTools file] in xref:assemblies/creating-a-migration-assessment.adoc#creating-a-migration-assessment[Creating a migration assessment].
+For where to obtain RVTools and how to upload an export in the {OMA}, see xref:modules/about-rvtools-for-automated-migration-reports.adoc#about-rvtools-for-automated-migration-reports[About RVTools for automated migration reports] and xref:modules/starting-assessment-with-rvtools-data.adoc#starting-assessment-with-rvtools-data[Starting an automated migration report with a RVTools file] in xref:assemblies/creating-an-automated-migration-report.adoc#creating-an-automated-migration-report[Creating an automated migration report].
+
+Guided demo (Arcade): link:https://interact.redhat.com/share/pkPLJELVr45LbdXg3InF[Evaluate VMware migration-readiness with the OpenShift migration advisor].
 
 *Assisted agent in vSphere*
 
 * *When it helps* — You need a richer view of the environment (including views that may be available *only* on a local agent appliance) and you can deploy software in the VMware side.
 * *What you should plan for* — Import, credentials, OPA or policy folders if your build requires them, and network paths. Use the product documentation and runbooks for your build for the exact image name and size.
+
+Guided demo (Arcade): link:https://interact.redhat.com/share/kEinYphM8Zyt7wXLys53[The OpenShift migration advisor using OVA Agent].

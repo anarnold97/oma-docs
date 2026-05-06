@@ -1,7 +1,7 @@
-// The name of the title
-:ProjectName: {OMA}
+// The name of the title (publication title: no article; title case)
+:ProjectName: OpenShift{nbsp}Migration{nbsp}Advisor
 // Used by docinfo.xml (CCSS / Pantheon publication metadata)
-:ProductName: {OMA}
+:ProductName: OpenShift{nbsp}Migration{nbsp}Advisor
 :ProductNumber: 1
 :ProductRelease: 1.0
 // The subtitle and abstract: replace pass:[] with copy when you have product resources

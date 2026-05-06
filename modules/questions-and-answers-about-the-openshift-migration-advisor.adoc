@@ -1,0 +1,66 @@
+:_mod-docs-content-type: REFERENCE
+
+[id="questions-and-answers-about-the-openshift-migration-advisor"]
+= Common questions about the {OMA}
+
+[role="_abstract"]
+These topics summarize frequent questions about the {OMA}. Content is adapted from product FAQ material for readers of this guide; sales-only enablement listings are not reproduced here.
+
+== What is the OpenShift migration advisor?
+
+The {OMA} is a no-cost, self-service tool designed to evaluate the migration readiness of your VMware workloads prior to commitment. By discovering your vCenter environment, the advisor generates an *automated migration report* that provides the technical detail you need to plan your journey with confidence. With the {OMA}, you can assess your virtual machine workload migration path as you plan your move to {RH} OpenShift.
+
+== Who can access the {OMA}, and how is it accessed?
+
+* You access the {OMA} through the {HCC}.
+* Anyone with a {RH} account can use the tool.
+* You do not need a {RH} subscription to access the tool.
+* As of this release, the {OMA} is compatible with VMware environments only. Hypervisor support beyond VMware is not documented here.
+
+== What types of insights does it provide?
+
+* *Discovery* — A clear snapshot of your connected VMware clusters, including CPU and memory, disks, networks, and related inventory.
+* *Warnings and risks* — Identification of potential obstacles that could affect your migration, such as specific hardware configurations or guest operating system versions. Future releases may add more remediation guidance where the product can provide it.
+* *Recommendations* — Technical guidance on how workloads can be configured in an OpenShift environment, plus estimates such as migration time windows and complexity views when your build exposes them, based on the inventory and rules available in your version.
+
+== How is the {OMA} different from the Virtualization Migration Assessment (VMA)?
+
+Unlike the VMA, the {OMA} is an automated, no-cost tool that allows VMware users to evaluate their environments before committing to OpenShift. The {OMA} provides initial visibility and heuristics; the VMA offers hands-on, expert-led engagement for the most complex, large-scale migrations.
+
+The two can complement each other: the {OMA} provides a baseline snapshot of what migration can look like, and the VMA can build on that to operationalize the plan.
+
+== How is the {OMA} different from RVTools?
+
+RVTools focuses on exporting inventory data from your virtual environment. The {OMA} applies rules and analytics on supported inputs (such as a supported RVTools export or agent-collected inventory) to produce migration-oriented views and automated migration report outputs for planning toward {RH} OpenShift.
+
+== What are the two ways you can create an automated migration report?
+
+. Upload an inventory file from RVTools, a free Dell Technologies Windows application used to manage, monitor, and audit VMware vSphere environments.
+. Import and deploy an Open Virtualization Appliance (OVA) for the assisted migration agent in your VMware environment to collect inventory and share details with the planner service when your build supports that path. After the agent is connected and data sharing is enabled as your organization allows, you can generate a full automated migration report in the {HCC}.
+
+The {OMA} self-service experience lets you choose the method that fits your security requirements and connect for evaluation.
+
+== How much does the {OMA} cost?
+
+The {OMA} is offered at no cost for VMware users who need to evaluate a migration path toward {RH} OpenShift. Organizations that want deeper, expert-led migration planning often compare this entry path with offerings such as the VMA, which has its own pricing and scope.
+
+== What is the target audience for this solution?
+
+Existing VMware users who are evaluating {RH} OpenShift and need a structured snapshot of their environment and what is required to migrate virtual machines to OpenShift.
+
+== How does this help my migration planning?
+
+The automated migration report helps teams understand concrete preparation steps and constraints before migration execution, which reduces surprises later in the program.
+
+== When should we use this in our evaluation process?
+
+Use the {OMA} during discovery and evaluation when you want a low-friction way for administrators and architects to see inventory-driven signals before deeper design and migration execution work.
+
+== What documentation and learning materials are available?
+
+Public-facing materials include this documentation set, product blogs, demonstration videos, and presentations where {RH} publishes them for your subscription or program. Your {RH} account team or partner can point you to the latest customer-facing decks, hands-on demos, and any additional enablement that applies to your agreement.
+
+Interactive Arcade demos for the {OMA}:
+
+* link:https://interact.redhat.com/share/pkPLJELVr45LbdXg3InF[Evaluate VMware migration-readiness with the OpenShift migration advisor]
+* link:https://interact.redhat.com/share/kEinYphM8Zyt7wXLys53[The OpenShift migration advisor using OVA Agent]

@@ -23,13 +23,13 @@ include::common/providing-feedback-on-red-hat-documentation.adoc[leveloffset=+1]
 
 include::assemblies/introducing-openshift-migration-advisor.adoc[leveloffset=+1]
 
-include::assemblies/before-you-use-openshift-migration-advisor.adoc[leveloffset=+1]
+include::assemblies/before-you-start-an-automated-migration-report.adoc[leveloffset=+1]
 
-include::assemblies/creating-a-migration-assessment.adoc[leveloffset=+1]
+include::assemblies/creating-an-automated-migration-report.adoc[leveloffset=+1]
 
-include::assemblies/understanding-migration-advisor-results.adoc[leveloffset=+1]
+include::assemblies/understanding-the-automated-report.adoc[leveloffset=+1]
 
-include::assemblies/after-the-migration-assessment.adoc[leveloffset=+1]
+include::assemblies/after-the-automated-report.adoc[leveloffset=+1]
 
 include::assemblies/frequently-asked-questions-oma.adoc[leveloffset=+1]
 

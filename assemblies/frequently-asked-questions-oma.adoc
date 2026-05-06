@@ -4,7 +4,9 @@
 = Frequently asked questions
 
 [role="_abstract"]
-Short answers to common questions about how {OMA} is delivered, which languages are supported, and how the service relates to very large vSphere environments.
+Common questions about the {OMA}, followed by topics on ship cadence, language availability, and very large VMware estates.
+
+include::../modules/questions-and-answers-about-the-openshift-migration-advisor.adoc[leveloffset=+1]
 
 include::../modules/release-cadence-oma.adoc[leveloffset=+1]
 

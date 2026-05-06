@@ -1,0 +1,15 @@
+:_mod-docs-content-type: ASSEMBLY
+
+[id="creating-an-automated-migration-report"]
+= Creating an automated migration report
+
+[role="_abstract"]
+Follow one of the procedures that matches the data path your {OMA} build makes available, and read the reference on what the planner or agent can collect. Your release may offer only one of these paths.
+
+include::../modules/about-rvtools-for-automated-migration-reports.adoc[leveloffset=+1]
+
+include::../modules/starting-assessment-with-rvtools-data.adoc[leveloffset=+1]
+
+include::../modules/starting-an-automated-migration-report-with-a-vmware-agent.adoc[leveloffset=+1]
+
+include::../modules/categories-of-vsphere-data-the-automated-report-can-use.adoc[leveloffset=+1]

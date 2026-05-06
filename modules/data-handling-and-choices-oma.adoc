@@ -4,7 +4,7 @@
 = How data handling differs between a file upload and an agent
 
 [role="_abstract"]
-You can build an assessment in more than one way, depending on what the product in your build supports. A common choice is *upload* (for example, RVTools) versus a *local agent* in VMware. Data handling, reporting depth, and whether anything is available to the cloud console can differ.
+You can build an automated report in more than one way, depending on what the product in your build supports. A common choice is *upload* (for example, RVTools) versus a *local agent* in VMware. Data handling, reporting depth, and whether anything is available to the cloud console can differ.
 
 * *RVTools upload* — The upload usually shares a *minimal* or anonymized set of data with the service, according to the privacy statement and the technical behavior described for your release. The console shows what you are agreeing to.
 
