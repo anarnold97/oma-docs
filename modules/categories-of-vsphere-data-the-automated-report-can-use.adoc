@@ -4,7 +4,7 @@
 = Categories of vSphere data the automated report can use
 
 [role="_abstract"]
-The *Migration Planner* service and the *assisted migration agent* are built to work with a defined set of vSphere and workload signals. A RVTools file carries a subset on the spreadsheet. A live agent can collect a broader or fresher view, depending on the version, mode, and your consent settings.
+The *Migration Planner* service and the *assisted migration agent* are built to work with a defined set of vSphere and workload signals. An RVTools file contains a subset of this data in spreadsheet form. A live agent can collect a broader or fresher view, depending on the version, mode, and your consent settings.
 
 *Summary of categories* (exact fields depend on the release and the path you use)
 
@@ -12,8 +12,8 @@ The *Migration Planner* service and the *assisted migration agent* are built to 
 * *Hosts* — Count and high-level state where exposed.
 * *Networks* — Type and network identifiers, such as VLAN, when the export includes them.
 * *Clusters* and *datacenters* — Counts in summary form.
-* *General inventory* — A vCenter or inventory scope identifier the automated report uses to group the run.
-* *Virtual machines* — In aggregate, counts and sizing, including virtual CPUs, memory, virtual disk count and size, and guest operating system where the collector can read it, plus a status or health signal. The product applies rules to decide whether a VM is *migratable* in a supported sense, or should be reviewed manually, according to the policies installed for your run.
+* *General inventory* — A vCenter or inventory scope identifier the automated report uses to associate the collection run.
+* *Virtual machines* — In aggregate, counts and sizing, including virtual CPUs, memory, virtual disk count and size, and guest operating system where the collector can read it, plus a status or health signal. The product applies rules to decide whether a VM is *supported for migration*, or should be reviewed manually, according to the policies installed for your run.
 
 [NOTE]
 ====

@@ -1,9 +1,7 @@
-// The name of the title (publication title: no article; title case)
-:ProjectName: OpenShift{nbsp}Migration{nbsp}Advisor
-// Used by docinfo.xml (CCSS / Pantheon publication metadata)
-:ProductName: OpenShift{nbsp}Migration{nbsp}Advisor
-:ProductNumber: 1
-:ProductRelease: 1.0
+// The name of the title (publication title: no article; sentence case)
+:ProjectName: OpenShift{nbsp}migration{nbsp}advisor
+// Used by docinfo.xml (CCSS / Pantheon publication metadata); same string as the publication title
+:ProductName: {ProjectName}
 // The subtitle and abstract: replace pass:[] with copy when you have product resources
 :Subtitle: pass:[]
 :Abstract: pass:[]

@@ -23,6 +23,5 @@
 :HCC: Red{nbsp}Hat{nbsp}Hybrid{nbsp}Cloud{nbsp}Console
 :MTV: Migration{nbsp}Toolkit{nbsp}for{nbsp}Virtualization
 :OCP-short: OpenShift
-:ProductName: {OMA}
 :ProductNumber: 1
 :ProductRelease: 1.0

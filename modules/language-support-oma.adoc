@@ -4,6 +4,4 @@
 = Language availability for the product and this guide
 
 [role="_abstract"]
-The console experience and this user guide are published for English-speaking users today. Other locales may be considered as the product matures.
-
-Today, the {OMA} user interface and this guide are available in English. Future releases may broaden regional or language coverage; any change will be announced through normal product communication channels.
+Today, the {OMA} user interface and this guide are available in English. Future releases might broaden regional or language coverage. Any change will be announced through normal product communication channels.

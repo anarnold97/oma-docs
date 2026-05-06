@@ -6,4 +6,4 @@
 [role="_abstract"]
 The {OMA} is developed as a web service on the {HCC}. Ship cadence mixes larger increments with frequent updates to the live experience.
 
-The {OMA} grows continuously as a web project. Larger features are typically delivered on a monthly sprint rhythm. You should also expect smaller features and fixes to appear on a weekly cadence as the service is updated.
+The {OMA} is continuously updated as a web service. Larger features are typically delivered on a monthly sprint cadence. You should also expect smaller features and fixes to appear on a weekly cadence as the service is updated.

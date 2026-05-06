@@ -8,7 +8,7 @@ Some the {OMA} builds may show a migration time estimate, a complexity view, or 
 
 [IMPORTANT]
 ====
-Migration time and complexity style outputs are partial or still evolving in many builds. They are not confirmed in the same way as core inventory and risk views. The product may add, move, or hide them between updates. Your product release notes and the help in the product for your entitlement are the source of truth. If a field is missing, experimental, or labeled as beta in the user interface, do not use it for contractual planning.
+Migration time-and-complexity-style outputs are partial or still evolving in many builds. They are not as mature as core inventory and risk views. The product may add, move, or hide them between updates. Your product release notes and the in-product help for your entitlement are the source of truth. If a field is missing, experimental, or labeled as beta in the user interface, do not use it for contractual planning.
 
-When you do see a time or complexity line and you use it only for internal order-of-magnitude planning, still compare the result to your runbooks, maintenance windows, and application dependencies. The model does not know blackout dates or data migration work outside the scope of the inventory.
+When you do see a time or complexity line and you use it only for internal order-of-magnitude planning, still compare the result to your runbooks, maintenance windows, and application dependencies. The model does not account for blackout dates or data migration work outside the scope of the inventory.
 ====

@@ -4,7 +4,7 @@
 = Starting an automated migration report with a VMware agent
 
 [role="_abstract"]
-The assisted migration *agent* connects to the Migration Planner service, collects vSphere data that your rules allow, and reports to the {HCC} in supported modes. This procedure describes a typical, high-level sequence. The authoritative steps are the ones you receive when you *generate* or *download* the OVA, and the *agent* and *planner* documentation for your *version*.
+The assisted migration *agent* connects to the Migration Planner service, collects vSphere data according to your configured policies, and reports to the {HCC} in supported modes. This procedure describes a typical, high-level sequence. The authoritative steps are in the documentation you receive when you download the OVA, and in the agent and planner documentation for your version.
 
 [NOTE]
 ====

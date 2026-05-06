@@ -7,7 +7,7 @@
 Short definitions to align language in the rest of this user guide. Product names and feature labels in the live console are authoritative for a given release.
 
 * *Automated migration report* — A result from the {OMA} that is built from a supported data set and the rules and analytics in the product. It is a planning view, not a live migration.
-* *Migration Planner* — The {RH} service side of the solution that stores and presents automated reports and may be involved in generating the agent for VMware. The open source repository name is a development reference.
-* *Assisted migration agent* — Software, often as an OVA or image for VMware, that you run in or alongside vSphere to send inventory to the reporting service, according to the mode and consent you select.
+* *Migration Planner* — The {RH} service side of the solution that stores and presents automated reports and may be involved in generating the agent for VMware. The Migration Planner name also refers to an open source repository in the kubev2v community; the product and the repository are related but not identical in scope.
+* *Assisted migration agent* — Software, often as an OVA or image for VMware, that you run within or adjacent to your vSphere environment to send inventory to the reporting service, according to the mode and consent you select.
 * *RVTools* — A tool that exports vSphere data to a spreadsheet. The {OMA} can accept a supported RVTools file when that path is enabled in your product build.
 * *{MTV}* — The Red Hat software used to execute migration of virtual machines to {OSV}. It is for migration execution, not a substitute for a pre-migration *automated migration report*, though you may use both in the same program of work.

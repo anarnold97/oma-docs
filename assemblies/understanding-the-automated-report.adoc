@@ -4,7 +4,7 @@
 = Understanding the automated report
 
 [role="_abstract"]
-This chapter helps you read risk and readiness information, capacity style outputs, and, when your build offers them, time and complexity style views.
+This chapter helps you read risk and readiness information, capacity-style outputs, and, when your build offers them, time-and-complexity-style views.
 
 include::../modules/interpreting-risks-and-migration-considerations-in-an-automated-migration-report.adoc[leveloffset=+1]
 
