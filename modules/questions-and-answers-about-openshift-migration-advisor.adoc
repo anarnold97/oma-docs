@@ -19,7 +19,7 @@ You access the {OMA} through the {HCC}. Anyone with a {RH} account can use the t
 == What types of insights does the {OMA} provide?
 
 * *Discovery* — A clear snapshot of your connected VMware clusters, including CPU and memory, disks, networks, and related inventory.
-* *Warnings and risks* — Identification of potential obstacles that could affect your migration, such as specific hardware configurations or guest operating system versions. Future releases might add more remediation guidance where it can be provided.
+* *Warnings and risks* — Identification of potential obstacles that could affect your migration, such as specific hardware configurations or guest operating system versions. Future releases might add more remediation guidance when it is available.
 * *Recommendations* — Technical guidance on how workloads can be configured in a {OCP-short} environment, plus estimates such as migration time windows and complexity views if they are displayed in your environment, based on the inventory and rules that are available in your version.
 
 == How is the {OMA} different from the Virtualization Migration Assessment (VMA)?
