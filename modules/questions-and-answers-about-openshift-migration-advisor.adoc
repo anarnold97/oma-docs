@@ -62,7 +62,7 @@ Interactive Arcade demos:
 [id="release-cadence-oma"]
 == How often the {OMA} changes
 
-The {OMA} is a continuously updated web service on the {HCC}. The release schedule combines major enhancements with frequent updates to the active service. Major features are typically delivered on a monthly schedule. You should also expect smaller features and fixes to be released weekly as the service is updated.
+The {OMA} is a continuously updated web service on the {HCC}. The release schedule combines major enhancements with frequent updates to the active service. 
 
 [id="language-support-oma"]
 == Language availability for the product and this guide
