@@ -6,4 +6,4 @@
 [role="_abstract"]
 This chapter introduces the {OMA}, what the service is for, where it runs on the {HCC}, and how an automated migration report fits in your planning before you invest in migration execution with tools such as {MTV}. It reuses the same introduction as the full user guide so the overview and the guide stay aligned.
 
-include::../modules/what-is-openshift-migration-advisor.adoc[leveloffset=+1]
+include::../modules/overview-of-openshift-migration-advisor.adoc[leveloffset=+1]

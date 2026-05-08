@@ -1,6 +1,5 @@
 :_mod-docs-content-type: PROCEDURE
 
-[preface]
 [id="providing-feedback-on-red-hat-documentation"]
 = Providing feedback on Red Hat documentation
 

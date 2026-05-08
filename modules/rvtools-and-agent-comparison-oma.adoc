@@ -6,18 +6,25 @@
 [role="_abstract"]
 The product may offer one or both of these paths. Use what your build exposes and what your security model allows.
 
-*RVTools spreadsheet*
+[cols="1,2,2",options="header"]
+|===
+| Criteria | *RVTools* | *Assisted agent in vSphere*
 
-* *When it helps* — You already have RVTools, you want a light-touch upload, and you can accept a summary or anonymized view that matches your chosen privacy setting.
-* *What you give up* — A file alone does not run live queries or deep in-guest checks in the VMware estate. The depth of the automated report matches what the spreadsheet and product rules can derive.
+| When to use
+| You already have RVTools, you want a light-touch upload, and you can accept a summary or anonymized view that matches your chosen privacy setting.
+| You need a richer view of the environment — including views that may be available *only* on a local agent appliance — and you can deploy software in the VMware environment.
 
-For where to obtain RVTools and how to upload an export in the {OMA}, see xref:modules/about-rvtools-for-automated-migration-reports.adoc#about-rvtools-for-automated-migration-reports[About RVTools for automated migration reports] and xref:modules/starting-assessment-with-rvtools-data.adoc#starting-assessment-with-rvtools-data[Starting an automated migration report with an RVTools file] in xref:assemblies/creating-an-automated-migration-report.adoc#creating-an-automated-migration-report[Creating an automated migration report].
+| What you give up / what to plan for
+| A file alone does not run live queries or deep in-guest checks in the VMware estate. The depth of the automated migration report matches what the spreadsheet and product rules can derive.
+| Import, credentials, OPA or policy folders if your build requires them, and network paths. Use the product documentation and runbooks for your build for the exact image name and size.
+
+| Data handling
+| The upload shares a minimal or anonymized set of data with the service, according to the privacy statement for your release.
+| Detailed inspection data stays in the local appliance by default. It is not shared with {RH} unless you enable a separate, explicit consent.
+|===
+
+For where to obtain RVTools and how to upload an export in the {OMA}, see xref:modules/about-rvtools-for-automated-migration-reports.adoc#about-rvtools-for-automated-migration-reports[About RVTools for automated migration reports] and xref:modules/starting-automated-migration-report-with-rvtools-data.adoc#starting-automated-migration-report-with-rvtools-data[Starting an automated migration report with an RVTools file] in xref:assemblies/creating-an-automated-migration-report.adoc#creating-an-automated-migration-report[Creating an automated migration report].
 
 Guided demo (Arcade): link:https://interact.redhat.com/share/pkPLJELVr45LbdXg3InF[Evaluate VMware migration-readiness with the OpenShift migration advisor].
-
-*Assisted agent in vSphere*
-
-* *When it helps* — You need a richer view of the environment (including views that may be available *only* on a local agent appliance) and you can deploy software in the VMware side.
-* *What you should plan for* — Import, credentials, OPA or policy folders if your build requires them, and network paths. Use the product documentation and runbooks for your build for the exact image name and size.
 
 Guided demo (Arcade): link:https://interact.redhat.com/share/kEinYphM8Zyt7wXLys53[The OpenShift migration advisor using OVA Agent].

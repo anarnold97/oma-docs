@@ -9,12 +9,6 @@ include::_title-attributes.adoc[]
 [id="guide-oma-product-overview"]
 = {ProjectName}
 
-include::common/providing-feedback-on-red-hat-documentation.adoc[leveloffset=+1]
-
-///////
-// Preface modules
-///////
-
 [role="_abstract"]
 {Abstract}
 
@@ -31,6 +25,8 @@ include::assemblies/understanding-the-automated-report.adoc[leveloffset=+1]
 
 include::assemblies/after-the-automated-report.adoc[leveloffset=+1]
 
-include::assemblies/frequently-asked-questions-oma.adoc[leveloffset=+1]
+include::modules/questions-and-answers-about-openshift-migration-advisor.adoc[leveloffset=+1]
 
 include::assemblies/additional-documentation-resources-for-oma.adoc[leveloffset=+1]
+
+include::common/providing-feedback-on-red-hat-documentation.adoc[leveloffset=+1]

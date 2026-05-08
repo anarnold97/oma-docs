@@ -4,8 +4,8 @@
 = How you use the {OMA} in the {HCC}
 
 [role="_abstract"]
-The {OMA} is offered as a web experience after you sign in to the {HCC} with your {RH} account. The interface walks you through creating an automated migration report. Prompts, labels, and legal notices live in the product, and they are the source of truth for the exact flow in your build.
+The {RH} {OMA} is offered as a no-cost web service after you sign in to the {HCC} with your {RH} account. The interface guides you through creating an automated migration report. The prompts, labels, and legal notices in the product are the authoritative source for the exact process in your environment. 
 
-To open the service, use the {HCC} applications menu or search to find the {OMA} or the automated migration report entry, then follow the on-screen steps. The service may be labeled to reflect your product bundle. Do not bookmark or share internal, nonproduction, or partner-only URLs. Use only the console that your {RH} subscription or program assigns you.
+To open the service, use the {HCC} applications menu or search to find the {OMA} or the automated migration report entry, and then follow the on-screen steps. The service might be labeled to reflect your product bundle. Do not bookmark or share internal, nonproduction, or partner-only URLs. Use only the console that your {RH} subscription or program assigns you.
 
-If your organization does not have access to the {HCC}, contact {RH} or an authorized partner to find out which automated report options apply to you.
+If your organization does not have access to the {HCC}, contact {RH} or a {RH} partner to determine which automated report options apply to you.

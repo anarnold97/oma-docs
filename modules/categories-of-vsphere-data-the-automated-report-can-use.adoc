@@ -17,7 +17,7 @@ The *Migration Planner* service and the *assisted migration agent* are built to 
 
 [NOTE]
 ====
-This list reflects the *categories* the upstream *migration-planner* project documents for automated report design. A specific the {OMA} build or subscription might expose only part of a category, or label fields with different names in the console. Use the in-product help and data-handling information in your *release* as the final reference.
+This list reflects the *categories* the upstream *migration-planner* project documents for automated report design. A specific OpenShift migration advisor build or subscription might expose only part of a category, or label fields with different names in the console. Use the in-product help and data-handling information in your *release* as the final reference.
 
-Do not paste a full RVTools workbook or a raw export into any channel that is not approved for confidential infrastructure data.
+Do not paste an RVTools workbook in full or a raw export into any channel that is not approved for confidential infrastructure data.
 ====

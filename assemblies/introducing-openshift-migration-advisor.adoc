@@ -4,9 +4,9 @@
 = Introducing the {OMA}
 
 [role="_abstract"]
-Read this chapter to learn what the {OMA} is, which problems an automated migration report helps you address, who the service is for, and how you reach it in the {HCC}.
+Read this chapter for an overview of the {OMA}, which problems an automated migration report helps you address, who the service is for, and how you reach it in the {HCC}.
 
-include::../modules/what-is-openshift-migration-advisor.adoc[leveloffset=+1]
+include::../modules/overview-of-openshift-migration-advisor.adoc[leveloffset=+1]
 
 include::../modules/problems-that-an-automated-migration-report-is-meant-to-help-with.adoc[leveloffset=+1]
 

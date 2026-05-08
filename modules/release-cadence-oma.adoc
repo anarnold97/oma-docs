@@ -1,9 +1,0 @@
-:_mod-docs-content-type: CONCEPT
-
-[id="release-cadence-oma"]
-= How often the {OMA} changes
-
-[role="_abstract"]
-The {OMA} is developed as a web service on the {HCC}. Ship cadence mixes larger increments with frequent updates to the live experience.
-
-The {OMA} is continuously updated as a web service. Larger features are typically delivered on a monthly sprint cadence. You should also expect smaller features and fixes to appear on a weekly cadence as the service is updated.

@@ -8,7 +8,7 @@ Follow one of the procedures that matches the data path your {OMA} build makes a
 
 include::../modules/about-rvtools-for-automated-migration-reports.adoc[leveloffset=+1]
 
-include::../modules/starting-assessment-with-rvtools-data.adoc[leveloffset=+1]
+include::../modules/starting-automated-migration-report-with-rvtools-data.adoc[leveloffset=+1]
 
 include::../modules/starting-an-automated-migration-report-with-a-vmware-agent.adoc[leveloffset=+1]
 

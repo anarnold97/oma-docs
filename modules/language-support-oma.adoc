@@ -1,7 +1,0 @@
-:_mod-docs-content-type: CONCEPT
-
-[id="language-support-oma"]
-= Language availability for the product and this guide
-
-[role="_abstract"]
-Today, the {OMA} user interface and this guide are available in English. Future releases might broaden regional or language coverage. Any change will be announced through normal product communication channels.

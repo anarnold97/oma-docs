@@ -6,8 +6,26 @@
 [role="_abstract"]
 Short definitions to align language in the rest of this user guide. Product names and feature labels in the live console are authoritative for a given release.
 
+* *Assisted migration agent* — Software, distributed as an OVA or other supported image, that you deploy within your vSphere environment to collect inventory and send it to the reporting service according to the mode and consent settings you select.
+
+* *Connected mode* — An agent deployment mode in which the assisted migration agent has network access to the {OMA} service endpoints and sends data directly. Contrast with disconnected mode.
+
+* *Disconnected mode* — An agent deployment mode in which the assisted migration agent operates without direct network access to {OMA} service endpoints. Data is collected locally and transferred by another method. Contrast with connected mode.
+
+* *kubev2v* — The GitHub organization that publishes the open source components behind {OMA}, including the Migration Planner service, the console UI, and the assisted migration agent. {RH} support and product scope follow your subscription, not the public repositories.
+
 * *Automated migration report* — A result from the {OMA} that is built from a supported data set and the rules and analytics in the product. It is a planning view, not a live migration.
-* *Migration Planner* — The {RH} service side of the solution that stores and presents automated reports and may be involved in generating the agent for VMware. The Migration Planner name also refers to an open source repository in the kubev2v community; the product and the repository are related but not identical in scope.
-* *Assisted migration agent* — Software, often as an OVA or image for VMware, that you run within or adjacent to your vSphere environment to send inventory to the reporting service, according to the mode and consent you select.
-* *RVTools* — A tool that exports vSphere data to a spreadsheet. The {OMA} can accept a supported RVTools file when that path is enabled in your product build.
-* *{MTV}* — The Red Hat software used to execute migration of virtual machines to {OSV}. It is for migration execution, not a substitute for a pre-migration *automated migration report*, though you may use both in the same program of work.
+
+* *Migration Planner* — The {RH} backend service that receives inventory data from the assisted migration agent or an RVTools upload, stores automated migration reports, and makes results available in the {HCC}. The term also refers to the open source project of the same name in the kubev2v organization; the product and the repository are related but not identical in scope or support.
+
+* *{MTV}* — The {RH} software used to execute migration of virtual machines to {OSV}. It is for migration execution, not a substitute for a pre-migration *automated migration report*, though you may use both in the same program of work.
+
+* *OPA (Open Policy Agent)* — An open source policy engine that some {OMA} builds use to validate virtual machines against a set of rules before including them in an automated migration report. If your build requires OPA policy folders, the product documentation for your version describes how to supply them.
+
+* *OVA (Open Virtualization Appliance)* — A standard packaging format for virtual machine images. The assisted migration agent is distributed as an OVA that you import into your VMware environment.
+
+* *RVTools* — A free Windows utility from Dell Technologies that exports VMware vSphere inventory data to a spreadsheet. {OMA} can accept an RVTools export in a supported format when that path is enabled in your product build.
+
+* *vCenter* — The VMware management platform that the assisted migration agent and RVTools both connect to in order to collect inventory. {OMA} uses vCenter as the scope boundary for an automated migration report.
+
+* *vSphere estate* — The full set of VMware infrastructure — virtual machines, hosts, clusters, datastores, and networks — managed under a vCenter deployment. Used in this guide to refer to the VMware environment that an automated migration report targets.
