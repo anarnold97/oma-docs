@@ -7,8 +7,8 @@
 Any suggested cluster size, migration time window, *complexity* view, or similar output from the {OMA} is an *estimate* for your planning. It is based on the inventory and rules the product can see, heuristics that your build implements, and limits on how well any automated model can reflect your runbooks, maintenance windows, network reality, and storage performance.
 
 * Treat numbers as a starting point for design workshops and for comparing scenarios, not as a service level agreement, quote, or guarantee.
-* Update your plan after you have a real target design, a migration path with migration toolkit virtualization (MTV) or any other tool you use, and validation in your test environment.
-* If a number looks wrong, validate inputs (for example, an RVTools file that is stale, or a subset of the estate that the agent can see) before you make project commitments.
+* Update your plan after you have a real target design, a migration path with {MTV} or any other tool you use, and validation in your test environment.
+* If a number appears incorrect, validate your inputs (for example, a stale RVTools file or a subset of the environment that the agent detects) before you make project commitments.
 
 [IMPORTANT]
 ====
