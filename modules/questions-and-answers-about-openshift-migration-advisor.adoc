@@ -6,33 +6,51 @@
 = Questions and answers about the {OMA}
 
 [role="_abstract"]
-These topics build on xref:modules/overview-of-openshift-migration-advisor.adoc#overview-of-openshift-migration-advisor[Overview of the {OMA}], xref:modules/how-you-access-oma.adoc#how-you-access-oma[How you use the OpenShift migration advisor in the Hybrid Cloud Console], and xref:modules/audience-and-scale-for-oma.adoc#audience-and-scale-for-oma[Who typically uses the service, and at what scale]. The sections that follow cover comparisons, scope, timing, report contents, demos, release cadence, language availability, and very large VMware estates.
+Common questions about the {OMA}, including release cadence, language availability, and support for large VMware estates.⁠
 
-== Does the {OMA} cost extra beyond my existing agreements?
+== What is the {OMA}?
 
-No. The advisor itself is a no-cost, self-service tool in typical offerings. Console availability and labels still follow your {RH} entitlement or program; navigation details stay in xref:modules/how-you-access-oma.adoc#how-you-access-oma[How you use the OpenShift migration advisor in the Hybrid Cloud Console].
+The {OMA} is a self-service tool designed to evaluate the migration readiness of your VMware workloads before you commit. By discovering your vCenter environment, an automated migration report is generated that provides the technical details that you need to plan your journey with confidence. With the {OMA}, you can assess your virtual machine workload migration path as you plan your move to {OCP-short}.
 
-== Which hypervisors does the {OMA} document here?
+== Who can access the {OMA}, and how is it accessed?
 
-This guide covers VMware vSphere only. Other hypervisors are out of scope.
+You access the {OMA} through the {HCC}. Anyone with a {RH} account can use the tool; you do not need a {RH} subscription.
 
-== How does the {OMA} compare to VMA?
+== What types of insights does the {OMA} provide?
 
-VMA is a {RH} consulting engagement with workshops and architects for large or complex migration programs. The {OMA} is an automated report in the {HCC}. Teams often run the {OMA} first for a baseline, then use VMA or other programs to operationalize.
+* *Discovery* — A clear snapshot of your connected VMware clusters, including CPU and memory, disks, networks, and related inventory.
+* *Warnings and risks* — Identification of potential obstacles that could affect your migration, such as specific hardware configurations or guest operating system versions. Future releases might add more remediation guidance when it is available.
+* *Recommendations* — Technical guidance on how workloads can be configured in a {OCP-short} environment, plus estimates such as migration time windows and complexity views if they are displayed in your environment, based on the inventory and rules that are available in your version.
 
-== How does the {OMA} compare to RVTools?
+== How is the {OMA} different from the Virtualization Migration Assessment (VMA)?
+
+VMA is a {RH} consulting engagement with workshops and architects for large or complex migration programs. The {OMA} is an automated report in the {HCC}. Teams often run the {OMA} first to establish a baseline, then use VMA or other programs to operationalize.
+
+== How is the {OMA} different from RVTools?
 
 RVTools exports vSphere inventory to a spreadsheet. The {OMA} consumes an RVTools export in a supported format or agent-collected inventory and applies rules and analytics to produce migration-oriented views in an automated migration report.
 
-== Where in our program should we run the {OMA}?
+== What are the two ways you can create an automated migration report?
+
+You can create an automated migration report by uploading a supported RVTools export or by deploying the assisted migration agent in your VMware vSphere environment. Your environment might offer one or both paths. See xref:modules/rvtools-and-agent-comparison-oma.adoc#rvtools-and-agent-comparison-oma[RVTools upload compared with a VMware agent] for a comparison.
+
+== How much does the {OMA} cost?
+
+The {OMA} is a self-service tool in typical offerings. Console availability and labels follow your {RH} entitlement or program. For navigation details, see xref:modules/how-you-access-oma.adoc#how-you-access-oma[How you use the OpenShift migration advisor in the Hybrid Cloud Console].
+
+== What is the target audience for this solution?
+
+The {OMA} is intended for VMware administrators, IT architects, and platform architects who are familiar with their vSphere environments and are evaluating {OCP-short} as a migration target. You must be able to generate or export the data that the service accepts, and you must understand what you are authorizing if you use an agent in your environment.
+
+== How does this help my migration planning?
+
+The automated migration report gives you inventory-backed data, risk signals, and sizing context before you commit to a migration design or project timeline. It helps you identify potential issues early and establish a baseline for your migration program. See xref:modules/problems-that-an-automated-migration-report-is-meant-to-help-with.adoc#problems-that-an-automated-migration-report-is-meant-to-help-with[Problems that an automated migration report is meant to help with] for more detail.
+
+== When should we use this in our evaluation process?
 
 During discovery and evaluation—before you finalize designs or execution—when administrators and architects want inventory-backed signals without committing to a full migration plan yet. See also xref:modules/problems-that-an-automated-migration-report-is-meant-to-help-with.adoc#problems-that-an-automated-migration-report-is-meant-to-help-with[Problems that an automated migration report is meant to help with].
 
-== What appears in an automated migration report?
-
-See xref:assemblies/understanding-the-automated-report.adoc#understanding-the-automated-report[Understanding the automated migration report] for risks, readiness views, and outputs. At a high level: discovery-style inventory, warnings or risks the rules surface, and recommendations or estimates your build exposes.
-
-== Where are demos and other materials?
+== What documentation and learning materials are available?
 
 Beyond this guide: {RH} blogs and recordings where your program publishes them. Your account team or partner can share decks under your agreement.
 
@@ -44,18 +62,16 @@ Interactive Arcade demos:
 [id="release-cadence-oma"]
 == How often the {OMA} changes
 
-The {OMA} is developed as a web service on the {HCC}. Ship cadence mixes larger increments with frequent updates to the live experience.
-
-The {OMA} is continuously updated as a web service. Larger features are typically delivered on a monthly sprint cadence. You should also expect smaller features and fixes to appear on a weekly cadence as the service is updated.
+The {OMA} is a continuously updated web service on the {HCC}. The release schedule combines major enhancements with frequent updates to the active service. 
 
 [id="language-support-oma"]
 == Language availability for the product and this guide
 
-Today, the {OMA} user interface and this guide are available in English. Future releases might broaden regional or language coverage. Any change will be announced through normal product communication channels.
+Currently, the {OMA} user interface and documentation are available in English. Future releases might broaden regional or language coverage. Any changes will be announced through normal product communication channels.
 
 [id="support-for-large-environments-oma"]
-== Using the {OMA} in very large VMware estates
+== Using the {OMA} in large VMware estates
 
-The user experience is tuned for common midsize footprints. Larger organizations can still use the service for an early view, within product limits and your own policies.
+The service is designed for common midsize environments. However, if you have a larger organization, you can still use the service for an initial assessment within the product limits and your own policies.
 
-The {OMA} is often used by organizations whose VMware footprint is in a midsize range on average, including environments on the order of two thousand virtual machines. That focus does not block you from uploading inventory from a larger estate. If you operate at very large scale, you can still use the {OMA} for initial investigation and automated reporting, and you should confirm limits, support expectations, and operational approach with your {RH} account team or partner where applicable.
+The {OMA} is designed for average midsize VMware environments, including those with approximately 2,000 virtual machines. However, you can still upload inventory from a larger estate to use the service for initial investigation and automated reporting. If you operate at a large scale, confirm the product limits, support expectations, and operational approach with your {RH} account team or partner.
