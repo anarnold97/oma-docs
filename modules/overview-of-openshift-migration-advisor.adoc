@@ -9,7 +9,7 @@ The {OMA} is a {HCC} service designed to help you evaluate VMware vSphere enviro
 
 By analyzing data that you provide, the service generates an *automated migration report* that highlights infrastructure and workload details, identifies risk or compatibility signals, and provides planning outputs such as sizing context. It is strictly a planning tool and does not migrate virtual machines itself.
 
-=== Key features and implementation
+== Key features and implementation
 
 * *Access* — The advisor runs as a web service within the {HCC}.
 * *Data collection* — You can provide data by using either an RVTools export in a supported format (upload) or an assisted migration agent deployed directly in your VMware environment.
