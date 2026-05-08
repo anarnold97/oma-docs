@@ -1,0 +1,15 @@
+:_mod-docs-content-type: ASSEMBLY
+
+[id="before-you-start-an-automated-migration-report"]
+= Before you start an automated migration report
+
+[role="_abstract"]
+Review the prerequisites for the service, understand how data handling differs between an RVTools file upload and an agent-based flow, and learn how to use the planning and sizing outputs.
+
+include::../modules/prerequisites-to-use-an-automated-migration-report.adoc[leveloffset=+1]
+
+include::../modules/data-handling-and-choices-oma.adoc[leveloffset=+1]
+
+include::../modules/planning-only-estimates-oma.adoc[leveloffset=+1]
+
+include::../modules/rvtools-and-agent-comparison-oma.adoc[leveloffset=+1]

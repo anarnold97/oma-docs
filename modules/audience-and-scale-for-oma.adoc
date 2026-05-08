@@ -1,0 +1,11 @@
+:_mod-docs-content-type: CONCEPT
+
+[id="audience-and-scale-for-oma"]
+= Who typically uses the service, and at what scale
+
+[role="_abstract"]
+This service is intended for VMware administrators, IT architects, and platform architects who are familiar with their vSphere environments. You can find or export the data that the service accepts, and you must understand what you are authorizing when you use an agent in your environment.
+
+Organizations with moderate VMware environments can use a self-service assessment for initial analysis. Very large environments can combine this assessment with a comprehensive analysis through {RH} or internal practices. Practical limits on inventory volume per self-service flow depend on product capabilities and your organization's operational policies.
+
+The service does not replace a formal project plan, resource planning, or a signed infrastructure design. It is only one input to those decisions.

@@ -1,0 +1,11 @@
+:_mod-docs-content-type: ASSEMBLY
+
+[id="after-the-automated-report"]
+= After the automated report
+
+[role="_abstract"]
+This chapter places the {OMA} next to migration toolkit for virtualization in a migration program, and suggests clear next steps once you have a result. It does not include partner or third party marketplaces.
+
+include::../modules/oma-and-mtv-complementary-use.adoc[leveloffset=+1]
+
+include::../modules/what-to-do-after-the-automated-report.adoc[leveloffset=+1]

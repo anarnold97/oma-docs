@@ -1,0 +1,61 @@
+:_mod-docs-content-type: REFERENCE
+
+[id="questions-and-answers-about-openshift-migration-advisor"]
+[[questions-and-answers-about-the-openshift-migration-advisor]]
+[[frequently-asked-questions-for-oma]]
+= Questions and answers about the {OMA}
+
+[role="_abstract"]
+These topics build on xref:modules/overview-of-openshift-migration-advisor.adoc#overview-of-openshift-migration-advisor[Overview of the {OMA}], xref:modules/how-you-access-oma.adoc#how-you-access-oma[How you use the OpenShift migration advisor in the Hybrid Cloud Console], and xref:modules/audience-and-scale-for-oma.adoc#audience-and-scale-for-oma[Who typically uses the service, and at what scale]. The sections that follow cover comparisons, scope, timing, report contents, demos, release cadence, language availability, and very large VMware estates.
+
+== Does the {OMA} cost extra beyond my existing agreements?
+
+No. The advisor itself is a no-cost, self-service tool in typical offerings. Console availability and labels still follow your {RH} entitlement or program; navigation details stay in xref:modules/how-you-access-oma.adoc#how-you-access-oma[How you use the OpenShift migration advisor in the Hybrid Cloud Console].
+
+== Which hypervisors does the {OMA} document here?
+
+This guide covers VMware vSphere only. Other hypervisors are out of scope.
+
+== How does the {OMA} compare to VMA?
+
+VMA is a {RH} consulting engagement with workshops and architects for large or complex migration programs. The {OMA} is an automated report in the {HCC}. Teams often run the {OMA} first for a baseline, then use VMA or other programs to operationalize.
+
+== How does the {OMA} compare to RVTools?
+
+RVTools exports vSphere inventory to a spreadsheet. The {OMA} consumes an RVTools export in a supported format or agent-collected inventory and applies rules and analytics to produce migration-oriented views in an automated migration report.
+
+== Where in our program should we run the {OMA}?
+
+During discovery and evaluation—before you finalize designs or execution—when administrators and architects want inventory-backed signals without committing to a full migration plan yet. See also xref:modules/problems-that-an-automated-migration-report-is-meant-to-help-with.adoc#problems-that-an-automated-migration-report-is-meant-to-help-with[Problems that an automated migration report is meant to help with].
+
+== What appears in an automated migration report?
+
+See xref:assemblies/understanding-the-automated-report.adoc#understanding-the-automated-report[Understanding the automated migration report] for risks, readiness views, and outputs. At a high level: discovery-style inventory, warnings or risks the rules surface, and recommendations or estimates your build exposes.
+
+== Where are demos and other materials?
+
+Beyond this guide: {RH} blogs and recordings where your program publishes them. Your account team or partner can share decks under your agreement.
+
+Interactive Arcade demos:
+
+* link:https://interact.redhat.com/share/pkPLJELVr45LbdXg3InF[Evaluate VMware migration-readiness with the OpenShift migration advisor]
+* link:https://interact.redhat.com/share/kEinYphM8Zyt7wXLys53[The OpenShift migration advisor using OVA Agent]
+
+[id="release-cadence-oma"]
+== How often the {OMA} changes
+
+The {OMA} is developed as a web service on the {HCC}. Ship cadence mixes larger increments with frequent updates to the live experience.
+
+The {OMA} is continuously updated as a web service. Larger features are typically delivered on a monthly sprint cadence. You should also expect smaller features and fixes to appear on a weekly cadence as the service is updated.
+
+[id="language-support-oma"]
+== Language availability for the product and this guide
+
+Today, the {OMA} user interface and this guide are available in English. Future releases might broaden regional or language coverage. Any change will be announced through normal product communication channels.
+
+[id="support-for-large-environments-oma"]
+== Using the {OMA} in very large VMware estates
+
+The user experience is tuned for common midsize footprints. Larger organizations can still use the service for an early view, within product limits and your own policies.
+
+The {OMA} is often used by organizations whose VMware footprint is in a midsize range on average, including environments on the order of two thousand virtual machines. That focus does not block you from uploading inventory from a larger estate. If you operate at very large scale, you can still use the {OMA} for initial investigation and automated reporting, and you should confirm limits, support expectations, and operational approach with your {RH} account team or partner where applicable.

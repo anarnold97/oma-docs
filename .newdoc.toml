@@ -1,4 +1,4 @@
-# Match rhel-10-docs newdoc settings
+# newdoc (Asciidoctor) settings for this repository
 file_prefixes = false
 anchor_prefixes = false
 simplified = true

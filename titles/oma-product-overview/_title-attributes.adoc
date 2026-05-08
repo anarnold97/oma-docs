@@ -1,12 +1,10 @@
-// The name of the title
-:ProjectName: {OMA}
-// Used by docinfo.xml (CCSS / Pantheon publication metadata)
-:ProductName: {OMA}
-:ProductNumber: 1
-:ProductRelease: 1.0
+// The name of the title (publication title: no article; sentence case)
+:ProjectName: OpenShift{nbsp}migration{nbsp}advisor
+// Used by docinfo.xml (CCSS / Pantheon publication metadata); same string as the publication title
+:ProductName: {ProjectName}
 // The subtitle and abstract: replace pass:[] with copy when you have product resources
-:Subtitle: pass:[]
-:Abstract: pass:[]
+:Subtitle: VMware migration planning and automated migration reports in the {HCC}
+:Abstract: Documentation for the OpenShift migration advisor (OMA), a {HCC} service for planning migration from VMware vSphere toward {RH} OpenShift. Scope includes prerequisites, generating an automated migration report from an RVTools export or assisted migration agent, data-handling and estimate limits, interpreting report outputs and next steps, positioning relative to {MTV}, reference FAQs and glossary material, and related kubev2v repositories.
 // A short unique token to enable checking whether content appears in this or another title
 :oma-product-overview:
 // The name of the title for the purposes of {context}
