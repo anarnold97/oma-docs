@@ -6,7 +6,7 @@
 = Questions and answers about the {OMA}
 
 [role="_abstract"]
-Common questions about the {OMA}, followed by topics on release cadence, language availability, and large VMware estates.
+Common questions about the {OMA}, including release cadence, language availability, and support for large VMware estates.⁠
 
 == What is the {OMA}?
 
