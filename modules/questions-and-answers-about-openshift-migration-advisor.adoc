@@ -10,7 +10,7 @@ Common questions about the {OMA}, including release cadence, language availabili
 
 == What is the {OMA}?
 
-The {OMA} is a no-cost, self-service tool designed to evaluate the migration readiness of your VMware workloads before commitment. By discovering your vCenter environment, an automated migration report is generated that provides the technical detail that you need to plan your journey with confidence. With the {OMA}, you can assess your virtual machine workload migration path as you plan your move to {OCP-short}.
+The {OMA} is a self-service tool designed to evaluate the migration readiness of your VMware workloads before you commit. By discovering your vCenter environment, an automated migration report is generated that provides the technical details that you need to plan your journey with confidence. With the {OMA}, you can assess your virtual machine workload migration path as you plan your move to {OCP-short}.
 
 == Who can access the {OMA}, and how is it accessed?
 
