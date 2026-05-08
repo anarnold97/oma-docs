@@ -36,7 +36,7 @@ You can create an automated migration report by uploading a supported RVTools ex
 
 == How much does the {OMA} cost?
 
-The {OMA} is a no-cost, self-service tool in typical offerings. Console availability and labels follow your {RH} entitlement or program. For navigation details, see xref:modules/how-you-access-oma.adoc#how-you-access-oma[How you use the OpenShift migration advisor in the Hybrid Cloud Console].
+The {OMA} is a self-service tool in typical offerings. Console availability and labels follow your {RH} entitlement or program. For navigation details, see xref:modules/how-you-access-oma.adoc#how-you-access-oma[How you use the OpenShift migration advisor in the Hybrid Cloud Console].
 
 == What is the target audience for this solution?
 
